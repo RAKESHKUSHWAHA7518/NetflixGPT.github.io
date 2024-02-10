@@ -1,11 +1,13 @@
+import Body from "./components/Body";
  
-import './App.css';
-
 function App() {
   return (
-    <div className=" text-3xl font-bold text-green-600">
-       Rakesh Next project  is goinng on 
-    </div>
+
+    <div>
+
+    
+     <Body/>
+     </div>
   );
 }
 
