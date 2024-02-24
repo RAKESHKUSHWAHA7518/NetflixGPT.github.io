@@ -16,9 +16,13 @@ import { createSlice } from "@reduxjs/toolkit";
            state.trailerVideo= action.payload; 
 
         },
+        addPopularMovies:(state,action) =>{
+            state.popularMovies= action.payload;
+        
+        },
 
     },
  })
  
- export const{ addNowPlayingMovies,addTrailerVideo}= moviesSlice.actions;
+ export const{ addNowPlayingMovies,addTrailerVideo,addPopularMovies}= moviesSlice.actions;
  export default moviesSlice.reducer

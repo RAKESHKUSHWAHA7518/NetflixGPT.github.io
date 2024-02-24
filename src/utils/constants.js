@@ -13,3 +13,5 @@ export const Profile_URL= "https://media.licdn.com/dms/image/C5603AQE42pvamd7EFA
     }
   };
   
+
+  export const IMG_CDN ="https://image.tmdb.org/t/p/w500"
