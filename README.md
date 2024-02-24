@@ -17,7 +17,19 @@
    Sign Out 
    update profile 
    Fatech movies
-
+   bug fix  : sign up and profile   
+   Bugfix: if user is not signed redirect to login
+   Bugfix : unsubscribe  to onauth change
+   add hardcoded value in constant file 
+   register for tmdb movies 
+   get data    tmdb of plying movies
+   custom movies now playing movies
+   create moviesslice
+   update store 
+   plaing the main container 
+   fetch data for trailar 
+   embedd the youtube video
+   
 
 
 

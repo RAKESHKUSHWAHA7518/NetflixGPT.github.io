@@ -4,11 +4,15 @@ import { checkValidData } from '../utils/validate';
 import {  createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from  "../utils/firebase";
 import {   signInWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+//  import { useNavigate } from 'react-router-dom';
 import {    updateProfile } from "firebase/auth";
 import { useDispatch } from 'react-redux';
 
 import { addUser } from '../utils/userSlice';
+
+import { Profile_URL } from '../utils/constants';
+
+
  
 
 const Login = () => {
@@ -17,7 +21,7 @@ const Login = () => {
 
     const [errorMessage, setErrorMessage] = useState(null)
 
-    const navigate =  useNavigate();
+   //  const navigate =  useNavigate();
 
     const dispatch = useDispatch();
 
@@ -56,26 +60,31 @@ const Login = () => {
 
                 
 
-         updateProfile(user, {
-     displayName: name.current.value, 
-     photoURL: "https://avatars.githubusercontent.com/u/99179878?v=4"
-})    .then(() => {
+                   updateProfile(user, {
+                   displayName: name.current.value, 
+                    photoURL:{Profile_URL}
+})             
+                    .then(() => {
   // Profile updated!
   // ...
 
-  const {uid,email,displayName ,photoURL}= auth.currentUser;
+                     const {uid,email,displayName ,photoURL}= auth.currentUser;
 
-  dispatch(addUser({uid:uid,
-     email:email, 
-     displayName:displayName ,
-     photoURL:photoURL}));
+               dispatch(
+                  addUser({
+                  uid:uid,
+               email:email, 
+               displayName:displayName ,
+                 photoURL:photoURL})
+                 );
+                  
+
    
+               //  navigate("/browse");
+})   
+             .catch((error) => {
 
-   
-  navigate("/browse");
-})     .catch((error) => {
-
-    setErrorMessage(  error.Message);
+                setErrorMessage(  error.Message);
     // ..
   // An error occurred
   // ...
@@ -103,7 +112,7 @@ const Login = () => {
           .then((userCredential) => {
     // Signed in 
        const user = userCredential.user;
-       navigate("/browse");
+      //  navigate("/browse");
 
        console.log(user);
     // ...
