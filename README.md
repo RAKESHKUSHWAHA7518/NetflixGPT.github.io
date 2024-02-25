@@ -2,11 +2,11 @@
 
 
 
-  -Create react app 
-  --Configured Tailwindcss 
-  -Header 
-   -Login Form
-   -Sign up Form 
+   Create react app 
+   Configured Tailwindcss 
+   Header 
+   Login Form
+   Sign up Form 
    Form validation 
    useRef 
    Firebase setup
@@ -29,7 +29,19 @@
    plaing the main container 
    fetch data for trailar 
    embedd the youtube video
-   
+   Tailwind Class to make Main Container
+   Build Secondary components
+   Build Movies List 
+   Build Movies Card
+   TMDB Image CDN url 
+   Mode the Browser page amazing with tailwind
+   usePopular Movies custom hooks
+   GPT Search page 
+   GPT Search  bar
+   Multi language   settings
+   Integraye GPT api
+
+
 
 
 
