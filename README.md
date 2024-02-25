@@ -2,44 +2,44 @@
 
 
 
-   Create react app 
-   Configured Tailwindcss 
-   Header 
-   Login Form
-   Sign up Form 
-   Form validation 
-   useRef 
-   Firebase setup
-   Deploying our app to production
-   Create SignUp user account
-   Implement Sign In user Api
-   Create  store
-   Sign Out 
-   update profile 
-   Fatech movies
-   bug fix  : sign up and profile   
-   Bugfix: if user is not signed redirect to login
-   Bugfix : unsubscribe  to onauth change
-   add hardcoded value in constant file 
-   register for tmdb movies 
-   get data    tmdb of plying movies
-   custom movies now playing movies
-   create moviesslice
-   update store 
-   plaing the main container 
-   fetch data for trailar 
-   embedd the youtube video
-   Tailwind Class to make Main Container
-   Build Secondary components
-   Build Movies List 
-   Build Movies Card
-   TMDB Image CDN url 
-   Mode the Browser page amazing with tailwind
-   usePopular Movies custom hooks
-   GPT Search page 
-   GPT Search  bar
-   Multi language   settings
-   Integraye GPT api
+   1. Create react app 
+   2. Configured Tailwindcss 
+   3. Header 
+   4. Login Form
+   5. Sign up Form 
+   6. Form validation 
+   7. useRef 
+   8. Firebase setup
+   9. Deploying our app to production
+   10. Create SignUp user account
+   11. Implement Sign In user Api
+   12. Create  store
+   13. Sign Out 
+   14. update profile 
+   15. Fatech movies
+   16. bug fix  : sign up and profile   
+   17. Bugfix: if user is not signed redirect to login
+   18. Bugfix : unsubscribe  to onauth change
+   19. add hardcoded value in constant file 
+   20. register for tmdb movies 
+  21.  get data    tmdb of plying movies
+   22. custom movies now playing movies
+   23. create moviesslice
+   24. update store 
+   25. plaing the main container 
+   26. fetch data for trailar 
+   27. embedd the youtube video
+   28. Tailwind Class to make Main Container
+   29. Build Secondary components
+   30. Build Movies List 
+   31. Build Movies Card
+   32. TMDB Image CDN url 
+   33. Mode the Browser page amazing with tailwind
+   34. usePopular Movies custom hooks
+   35. GPT Search page 
+   36. GPT Search  bar
+   37. Multi language   settings
+   38. Integraye GPT api
 
 
 
