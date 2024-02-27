@@ -40,6 +40,11 @@
    36. GPT Search  bar
    37. Multi language   settings
    38. Integraye GPT api
+   39. GEt api call 
+   40. fetch movies form tmdb
+   41. reuse movielist 
+   42. .env file
+   43. Responsive
 
 
 

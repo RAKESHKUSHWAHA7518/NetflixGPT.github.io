@@ -5,14 +5,17 @@ import { Logo_URL } from '../utils/constants'
 
 const GptSearch = () => {
   return (
-    <div>
-         <div className='fixed -z-10'>
+<>
+    <div className='fixed -z-10'>
 
-             <img src= { Logo_URL} alt='logo'/>
+             <img className='h-screen object-cover' src= { Logo_URL} alt='logo'/>
              </div>
+    <div className=''>
+         
       <GptSearchBar/>
       <GptMovieSuggestions/>
     </div>
+    </>
   )
 }
 
