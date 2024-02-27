@@ -22,7 +22,7 @@
    18. Bugfix : unsubscribe  to onauth change
    19. add hardcoded value in constant file 
    20. register for tmdb movies 
-  21.  get data    tmdb of plying movies
+   21.  get data    tmdb of plying movies
    22. custom movies now playing movies
    23. create moviesslice
    24. update store 

@@ -10,7 +10,7 @@ export const Profile_URL= "https://media.licdn.com/dms/image/C5603AQE42pvamd7EFA
     headers: {
       accept: 'application/json',
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYjUwYmU4ZGQ4MzJiNDUxZjA2MTVlZTRiNDExOGMxNyIsInN1YiI6IjY1Y2RkOTMwZDhhZjY3MDE4NzkwMTY4ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VNESo6_FTM-wjis97F4QqsNasaFqMG3Jjs8Eh8welHc'
-    }
+  }
   };
   
 
@@ -19,3 +19,13 @@ export const Profile_URL= "https://media.licdn.com/dms/image/C5603AQE42pvamd7EFA
    export const Logo_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_small.jpg";
    
    export const SUPPORTED_LANGUAGES=[{ identifier: 'en', name: 'English'},{ identifier: 'hindi', name: 'Hindi'},{ identifier: 'spanish', name: 'Spanish'}]
+
+   export const OPENAI_KEY= "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"
+
+
+    /* {movieNames.map((movieName,index)=>(
+      <MovieList 
+      key={movieName}
+       title= {movieName[index]}
+        movies ={movieResults[index]} /> 
+      ))} */
