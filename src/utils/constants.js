@@ -20,8 +20,7 @@ export const Profile_URL= "https://media.licdn.com/dms/image/C5603AQE42pvamd7EFA
    
    export const SUPPORTED_LANGUAGES=[{ identifier: 'en', name: 'English'},{ identifier: 'hindi', name: 'Hindi'},{ identifier: 'spanish', name: 'Spanish'}]
 
-   export const OPENAI_KEY= "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"
-
+   export const OPENAI_KEY= "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"
 
     /* {movieNames.map((movieName,index)=>(
       <MovieList 
